@@ -1,0 +1,59 @@
+@import "./variables";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: $black;
+}
+
+#header {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    margin: 3vh auto;
+    font-size: 3vmin;
+    color: $white;
+}
+
+#chessboard-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: 5vh auto;
+    width: 80vmin;
+    height: 80vmin;
+    max-height: 80vmin;
+    max-width: 80vmin;
+    min-width: 80vmin;
+    min-height: 80vmin;
+    background-color: $piece-black;
+    border: 3vmin solid $piece-black;
+}
+
+.black-square {
+    @extend %square-properties;
+    background-color: $black;
+}
+
+.white-square {
+    @extend %square-properties;
+    background-color: $white;
+}
+
+.white-piece {
+    @extend %piece-properties;
+    background-color: $piece-white;
+    color: $piece-black;
+
+}
+
+.black-piece {
+    @extend %piece-properties;
+    background-color: $piece-black;
+    color: $piece-white;
+}

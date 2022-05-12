@@ -1,0 +1,94 @@
+.white-piece, .black-piece {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70%;
+  width: 70%;
+  font-size: 5vmin;
+  border-radius: 100%;
+}
+
+.black-square, .white-square {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: #769656;
+}
+
+#header {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 3vh auto;
+  font-size: 3vmin;
+  color: #EEEED2;
+}
+
+#chessboard-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[8];
+      grid-template-columns: repeat(8, 1fr);
+  -ms-grid-rows: (1fr)[8];
+      grid-template-rows: repeat(8, 1fr);
+  margin: 5vh auto;
+  width: 80vmin;
+  height: 80vmin;
+  max-height: 80vmin;
+  max-width: 80vmin;
+  min-width: 80vmin;
+  min-height: 80vmin;
+  background-color: #4E543C;
+  border: 3vmin solid #4E543C;
+}
+
+.black-square {
+  background-color: #769656;
+}
+
+.white-square {
+  background-color: #EEEED2;
+}
+
+.white-piece {
+  background-color: #FFF;
+  color: #4E543C;
+}
+
+.black-piece {
+  background-color: #4E543C;
+  color: #FFF;
+}
+/*# sourceMappingURL=styles.css.map */

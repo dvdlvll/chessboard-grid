@@ -1,0 +1,21 @@
+$white: #EEEED2;
+$black: #769656;
+$piece-white: #FFF;
+$piece-black:#4E543C;
+
+%piece-properties {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 70%;
+    font-size: 5vmin;
+    border-radius: 100%;
+}
+
+%square-properties {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
