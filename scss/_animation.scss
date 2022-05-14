@@ -1,0 +1,119 @@
+//move1//
+
+.whitePawn5 {
+    position: relative;
+    animation-name: move1white;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+}
+  
+@keyframes move1white {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: -200%;
+    }
+}
+
+.blackPawn7 {
+    position: relative;
+    animation-name: move1black;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+}
+  
+@keyframes move1black {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: 200%;
+    }
+}
+
+//move2//
+
+.whiteKnight1 {
+    position: relative;
+    animation-name: move2white;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 3s;
+}
+  
+@keyframes move2white {
+    0% {
+        top: 0%;
+        right: 0;
+    }
+    100% {
+        top: -200%;
+        right: -100%;
+    }
+}
+
+.blackPawn6 {
+    position: relative;
+    animation-name: move2black;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 4s;
+}
+  
+@keyframes move2black {
+    0% {
+        top: 0%;
+    }
+    100% {
+        top: 200%;
+    }
+}
+
+//move3//
+
+.whiteQueen {
+    position: relative;
+    animation-name: move3white;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-delay: 5s;
+}
+  
+@keyframes move3white {
+    0% {
+        top: 0%;
+        right: 0;
+    }
+    100% {
+        top: -400%;
+        right: -400%;
+    }
+}
+
+.blackKing {
+    position: relative;
+    animation-name: checkmate;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 6s;
+}
+  
+@keyframes checkmate {
+    0% {
+        background-color: $piece-black;
+    }
+    50% {
+        background-color: red;
+    }
+    100% {
+        background-color: $piece-black;
+    }
+}

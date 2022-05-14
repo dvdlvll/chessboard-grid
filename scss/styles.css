@@ -91,4 +91,208 @@ body {
   background-color: #4E543C;
   color: #FFF;
 }
+
+.whitePawn5 {
+  position: relative;
+  -webkit-animation-name: move1white;
+          animation-name: move1white;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes move1white {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: -200%;
+  }
+}
+
+@keyframes move1white {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: -200%;
+  }
+}
+
+.blackPawn7 {
+  position: relative;
+  -webkit-animation-name: move1black;
+          animation-name: move1black;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+@-webkit-keyframes move1black {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 200%;
+  }
+}
+
+@keyframes move1black {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 200%;
+  }
+}
+
+.whiteKnight1 {
+  position: relative;
+  -webkit-animation-name: move2white;
+          animation-name: move2white;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 3s;
+          animation-delay: 3s;
+}
+
+@-webkit-keyframes move2white {
+  0% {
+    top: 0%;
+    right: 0;
+  }
+  100% {
+    top: -200%;
+    right: -100%;
+  }
+}
+
+@keyframes move2white {
+  0% {
+    top: 0%;
+    right: 0;
+  }
+  100% {
+    top: -200%;
+    right: -100%;
+  }
+}
+
+.blackPawn6 {
+  position: relative;
+  -webkit-animation-name: move2black;
+          animation-name: move2black;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+@-webkit-keyframes move2black {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 200%;
+  }
+}
+
+@keyframes move2black {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: 200%;
+  }
+}
+
+.whiteQueen {
+  position: relative;
+  -webkit-animation-name: move3white;
+          animation-name: move3white;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+@-webkit-keyframes move3white {
+  0% {
+    top: 0%;
+    right: 0;
+  }
+  100% {
+    top: -400%;
+    right: -400%;
+  }
+}
+
+@keyframes move3white {
+  0% {
+    top: 0%;
+    right: 0;
+  }
+  100% {
+    top: -400%;
+    right: -400%;
+  }
+}
+
+.blackKing {
+  position: relative;
+  -webkit-animation-name: checkmate;
+          animation-name: checkmate;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: ease;
+          animation-timing-function: ease;
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+@-webkit-keyframes checkmate {
+  0% {
+    background-color: #4E543C;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: #4E543C;
+  }
+}
+
+@keyframes checkmate {
+  0% {
+    background-color: #4E543C;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: #4E543C;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
